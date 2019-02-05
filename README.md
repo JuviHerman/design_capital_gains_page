@@ -1,6 +1,6 @@
 # design_capital_gains_page
 
-This code is currently designed for the use of Israeli accountants only by choise.
+This code is currently designated for the use of Israeli accountants (by choise).
 I am working on a code that would fit internationally.
 
 For accountants using the website Bitcoin.tax :
