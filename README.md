@@ -1,7 +1,7 @@
 # design_capital_gains_page
 
 For accountants using the website Bitcoin.tax :
-the end product of the website is by providing a set capital gain results.
+the website provides a set capital gain results. ( profit/loss)
 These results needs to be assembled to an official form, each accountant would reflect his own regulatury requirments in its presentation and forward it with all tax files handed over to the authorities on the behalf of his clients.
 
 presenting the main problem this code helps with:
