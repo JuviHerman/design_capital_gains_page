@@ -13,13 +13,13 @@ if 'USD' in df1.values:
 else:
     print('Original was an ILS file')
     df2 = df1
-df3 = Inflation_Adjusted_Cost_Basis(df2) #all capital gains are presented in a singel excel sheet
-dfs = divide_to_different_coins(df3) # capital gains for the sales of unique Coin in seperated in several excel sheets
+df3 = Inflation_Adjusted_Cost_Basis(df2) #all capital gains are presented in a singel excel sheet and adjusted to inflation.
 where_to_save = path[:-4] + " edited.xlsx"
 
 #which method of presentation is choosen, depending on the relevant Tax year
 Tax_year = int(input('for which tax year? '))
 if Tax_year > 2017:
+    dfs = divide_to_different_coins(df3) # unique Coin are seperated to seperated excel sheets.
     writer = pd.ExcelWriter(where_to_save, engine='xlsxwriter')
     for i in dfs:
         coin_name = i[0]
