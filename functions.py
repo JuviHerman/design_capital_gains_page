@@ -32,7 +32,7 @@ def Convert_to_ILS_Figures(file : pd.DataFrame):
     del result['USD/ILS']
     result.rename(columns = {'Date' : 'Date Acquired'}, inplace= True)
 
-    #left merge for sells USD rate
+    #left merge for sales USD rate
     result.rename(columns={'Date Sold': 'Date'}, inplace=True)
     result2 = result.merge(Dollar_ILS_Rates,on = 'Date',how = 'left')
 
@@ -55,6 +55,7 @@ def Inflation_Adjusted_Cost_Basis(file: pd.DataFrame):
     test_file.columns = ["Symbol","Volume","Date Acquired","Date Sold","Currency","Proceeds","Nominal_Cost_Basis","Gain"]
 
     #add Purchased YearMonth value to the list
+    print(test_file['Date Acquired'])
     test_file['YearMonth'] = test_file['Date Acquired'].map(lambda x: 100*x.year + x.month)
 
     results=test_file.merge(Israeli_Rates,on='YearMonth',how = 'left')
