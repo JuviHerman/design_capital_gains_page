@@ -2,7 +2,7 @@ import pandas as pd
 import dateutil
 from tkinter.filedialog import askopenfilename
 import tkinter as tk
-
+import os
 
 def divide_to_different_coins(pd1):
     coins = pd1['מטבע'].unique()
@@ -131,8 +131,9 @@ def prepare_capital_gains_file_for_work(df1):
     return x
 
 def OpenFile():
+    desktop_location = os.path.expanduser("~\Desktop")
     root = tk.Tk()
     root.withdraw()
-    name = askopenfilename(initialdir="C:\\Users\\yuval\\Desktop\\",filetypes =(("Csv File", "*.csv"),("All Files","*.*")),title = "Choose a file")
+    name = askopenfilename(initialdir=desktop_location,filetypes =(("Csv File", "*.csv"),("All Files","*.*")),title = "Choose a file")
     return name
 
