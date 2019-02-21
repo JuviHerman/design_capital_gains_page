@@ -1,6 +1,7 @@
 import pandas as pd
 from functions import OpenFile,prepare_capital_gains_file_for_print,Inflation_Adjusted_Cost_Basis,Convert_to_ILS_Figures,divide_to_different_coins
-
+import os
+import win32com.client
 ###groupby sale events and capital gains for each actual transaction
 
 path = OpenFile()
@@ -14,21 +15,31 @@ else:
     print('Original was an ILS file')
     df2 = df1
 df3 = Inflation_Adjusted_Cost_Basis(df2) #all capital gains are presented in a singel excel sheet and adjusted to inflation.
+
+
+#save to file
 where_to_save = path[:-4] + " edited.xlsx"
-
-#which method of presentation is choosen, depending on the relevant Tax year
-Tax_year = int(input('for which tax year? '))
-if Tax_year > 2017:
-    dfs = divide_to_different_coins(df3) # unique Coin are seperated to seperated excel sheets.
-    writer = pd.ExcelWriter(where_to_save, engine='xlsxwriter')
-    for i in dfs:
-        coin_name = i[0]
-        i[1].to_excel(writer, index=False, encoding='UTF-8', sheet_name = coin_name)
-    writer.save()
-else:
-    df3.to_excel(where_to_save, index=False, encoding='UTF-8')
+writer = pd.ExcelWriter(where_to_save, engine='xlsxwriter')
+df3.to_excel(writer, index=False, encoding='UTF-8')
 
 
+#Save macro to macro enabled file
+where_to_save_the_macro = where_to_save[:-1] + str('m')
+workbook = writer.book
+workbook.filename = where_to_save_the_macro
+workbook.add_vba_project('vbaProject.bin')
+writer.save()
+
+#Activate the macro on xlsm file
+if os.path.exists(where_to_save_the_macro):
+    xl = win32com.client.Dispatch('Excel.Application')
+    xl.Workbooks.Open(Filename = where_to_save_the_macro, ReadOnly=1)
+    xl.Application.Run("Macro1")
+    xl.Application.Quit()
+    del xl
+
+#remove xlsx file
+os.remove(where_to_save)
 
 
 
