@@ -4,7 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Transfer_prices" />
+    <orderEntry type="module" module-name="telegram-bot1" />
+    <orderEntry type="module" module-name="telepot" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
