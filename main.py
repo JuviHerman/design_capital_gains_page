@@ -7,7 +7,8 @@ import win32com.client
 path = OpenFile()
 print(path)
 capital_gains = pd.read_csv(path,index_col=None, usecols=[0,1,2,3,4,5,6,7,8])
-df1 = prepare_capital_gains_file_for_print((capital_gains))
+print(capital_gains)
+df1 = prepare_capital_gains_file_for_print(capital_gains)
 if 'USD' in df1.values:
     print('Original was a USD file')
     df2 =Convert_to_ILS_Figures(df1)
