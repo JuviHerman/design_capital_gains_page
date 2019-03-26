@@ -36,7 +36,7 @@
           <entry key="iml" value="1" />
           <entry key="md" value="4" />
           <entry key="pth" value="1" />
-          <entry key="py" value="78" />
+          <entry key="py" value="82" />
           <entry key="text" value="3" />
         </counts>
       </usages-collector>
@@ -46,7 +46,7 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="80" />
+          <entry key="Python" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -77,7 +77,17 @@
     <favorites_list name="delay_capital_gains" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Documents/GitHub/telepot/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="101" />
     <option name="y" value="53" />
     <option name="width" value="1400" />
@@ -192,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.play">
+  <component name="RunManager" selected="Python.setup">
     <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="delay_capital_gains" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,11 +317,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.setup" />
         <item itemvalue="Python.play" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.functions" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.setup" />
       </list>
     </recent_temporary>
   </component>
@@ -338,14 +348,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6457205" visible="true" weight="0.24920969" />
-      <window_info id="Structure" order="1" sideWeight="0.35427952" side_tool="true" visible="true" weight="0.24920969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64552844" visible="true" weight="0.24920969" />
+      <window_info id="Structure" order="1" sideWeight="0.35447153" side_tool="true" weight="0.24920969" />
       <window_info id="Favorites" order="2" sideWeight="0.50157726" side_tool="true" weight="0.24920969" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3336945" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3336945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,13 +429,6 @@
     <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/BQADBAADdQQAAo4eUFCuOPtaFtxQ-gI" />
     <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/BQADBAADQQUAAtLpSVDieBOKPxBMegI" />
     <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/BQADBAADdgQAAo4eUFCauTQ0EiZ9cQI" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/telepot/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -499,6 +503,30 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/distutils/command/build_py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="283" column="8" selection-start-line="283" selection-start-column="8" selection-end-line="283" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/inline/inline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="36" />
         </state>
       </provider>
     </entry>
