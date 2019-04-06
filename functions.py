@@ -4,6 +4,7 @@ from tkinter.filedialog import askopenfilename
 import tkinter as tk
 import os
 
+
 def divide_to_different_coins(pd1):
     coins = pd1['מטבע'].unique()
     pd_list = []
@@ -81,8 +82,11 @@ def Inflation_Adjusted_Cost_Basis(file: pd.DataFrame):
     results2['Periodical_Inflation_In_percent'] = results2['Periodical_Inflation_In_percent'].astype(str) + '%'
 
     #fix date variable to look better
-    results2['Date Acquired'] = results2['Date Acquired'].dt.date
-    results2['Date Sold'] = results2['Date Sold'].dt.date
+    try:
+        results2['Date Acquired'] = results2['Date Acquired'].dt.date
+        results2['Date Sold'] = results2['Date Sold'].dt.date
+    except:
+        pass
 
     #give hebrew titles
     results2.columns = ["מטבע","כמות","תאריך רכישה","מדד רכישה","תאריך מכירה","מדד מכירה","מטבע הצגה","תמורה","עלות מקורית נומינאלית","שיעור שינוי אינפלציוני בתקופה","עלות מקורית מתואמת","רווח/הפסד"]
@@ -136,3 +140,15 @@ def OpenFile():
     name = askopenfilename(initialdir=desktop_location,filetypes =(("Csv File", "*.csv"),("All Files","*.*")),title = "Choose a file")
     return name
 
+def set_bloxtaxfile(path):
+    file = pd.read_excel(path, error_bad_lines=False)
+    file = file.rename(columns={'כמות ביצוע':'Volume','תאריך מכירה':'Date Sold','תאריך קניה':'Date Acquired','נכס בסיס':'Symbol','תמורה':'Proceeds','עלות קניה שקלים':'Cost Basis','רווח\הפסד שקלים (נומינלי)':'gain'})
+    file = file[['Volume','Symbol','Date Acquired','Date Sold','Proceeds','Cost Basis','gain' ]]
+    file['Proceeds'] = file['gain'] + file['Cost Basis']
+    file['Date Acquired'] = pd.to_datetime(file['Date Acquired']).dt.date
+    file['Date Sold'] = pd.to_datetime(file['Date Sold']).dt.date
+    file['Currency'] = 'ILS'
+    file['Unmatched'] = ''
+
+    print(file)
+    return file
