@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Visualize_bitcoin/.idea/Visualize_bitcoin.iml" filepath="$PROJECT_DIR$/../Visualize_bitcoin/.idea/Visualize_bitcoin.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/delay_capital_gains.iml" filepath="$PROJECT_DIR$/.idea/delay_capital_gains.iml" />
       <module fileurl="file://$USER_HOME$/Documents/GitHub/telegram-bot1/.idea/telegram-bot1.iml" filepath="$USER_HOME$/Documents/GitHub/telegram-bot1/.idea/telegram-bot1.iml" />
       <module fileurl="file://$USER_HOME$/Documents/GitHub/telepot/.idea/telepot.iml" filepath="$USER_HOME$/Documents/GitHub/telepot/.idea/telepot.iml" />
