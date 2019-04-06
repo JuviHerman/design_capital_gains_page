@@ -6,6 +6,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="telegram-bot1" />
     <orderEntry type="module" module-name="telepot" />
+    <orderEntry type="module" module-name="Visualize_bitcoin" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
