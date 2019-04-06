@@ -5,6 +5,8 @@ import win32com.client
 ###groupby sale events and capital gains for each actual transaction
 
 path = OpenFile()
+if path is '':
+    exit()
 is_bloxtax = bool(int(input('is it from blox (True = 1, False = 0):')))
 print(is_bloxtax)
 if is_bloxtax:
