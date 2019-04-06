@@ -1,13 +1,18 @@
 import pandas as pd
-from functions import OpenFile,prepare_capital_gains_file_for_print,Inflation_Adjusted_Cost_Basis,Convert_to_ILS_Figures,divide_to_different_coins
+from functions import OpenFile,prepare_capital_gains_file_for_print,Inflation_Adjusted_Cost_Basis,Convert_to_ILS_Figures,divide_to_different_coins,set_bloxtaxfile
 import os
 import win32com.client
 ###groupby sale events and capital gains for each actual transaction
 
 path = OpenFile()
+is_bloxtax = bool(int(input('is it from blox (True = 1, False = 0):')))
+print(is_bloxtax)
+if is_bloxtax:
+    capital_gains = set_bloxtaxfile(path)
+else:
+    capital_gains = pd.read_csv(path, index_col=None, usecols=[0, 1, 2, 3, 4, 5, 6, 7, 8])
 print(path)
-capital_gains = pd.read_csv(path,index_col=None, usecols=[0,1,2,3,4,5,6,7,8])
-print(capital_gains)
+
 df1 = prepare_capital_gains_file_for_print(capital_gains)
 if 'USD' in df1.values:
     print('Original was a USD file')
@@ -34,13 +39,17 @@ writer.save()
 #Activate the macro on xlsm file
 if os.path.exists(where_to_save_the_macro):
     xl = win32com.client.Dispatch('Excel.Application')
-    xl.Workbooks.Open(Filename = where_to_save_the_macro, ReadOnly=1)
+    xl.Workbooks.Open(Filename = where_to_save_the_macro, ReadOnly=0)
     xl.Application.Run("Macro1")
     xl.Application.Quit()
     del xl
 
 #remove xlsx file
-os.remove(where_to_save)
+workbook.close()
+try:
+   os.remove(where_to_save)
+except:
+    pass
 
 
 
