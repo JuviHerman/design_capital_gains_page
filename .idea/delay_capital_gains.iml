@@ -7,6 +7,9 @@
     <orderEntry type="module" module-name="telegram-bot1" />
     <orderEntry type="module" module-name="telepot" />
     <orderEntry type="module" module-name="Visualize_bitcoin" />
+    <orderEntry type="module" module-name="ccGains-master" />
+    <orderEntry type="module" module-name="uk-crypto-tax-master" />
+    <orderEntry type="module" module-name="ccGains-master" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="pytest" />
