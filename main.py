@@ -4,6 +4,7 @@ import os
 import win32com.client
 ###groupby sale events and capital gains for each actual transaction
 
+
 path = OpenFile()
 if path is '':
     exit()
