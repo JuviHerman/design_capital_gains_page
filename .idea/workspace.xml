@@ -12,16 +12,16 @@
     <session id="-2039871038">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="87" />
+          <entry key="project.closed" value="95" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="18" />
-          <entry key="project.open.time.4" value="49" />
-          <entry key="project.open.time.5" value="12" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.opened" value="92" />
+          <entry key="project.open.time.4" value="54" />
+          <entry key="project.open.time.5" value="13" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.opened" value="100" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -31,25 +31,39 @@
           <entry key="BQADBAADdQQAAo4eUFCuOPtaFtxQ-gI" value="2" />
           <entry key="BQADBAADdgQAAo4eUFCauTQ0EiZ9cQI" value="1" />
           <entry key="Makefile" value="1" />
+          <entry key="PKG-INFO" value="1" />
           <entry key="User_profile" value="2" />
           <entry key="counter" value="1" />
-          <entry key="csv" value="41" />
+          <entry key="csv" value="70" />
+          <entry key="gexf" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="graph_file" value="1" />
+          <entry key="html" value="6" />
           <entry key="iml" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="md" value="4" />
+          <entry key="json" value="1" />
+          <entry key="json_file" value="3" />
+          <entry key="md" value="5" />
           <entry key="pth" value="1" />
-          <entry key="py" value="124" />
+          <entry key="py" value="196" />
+          <entry key="pyi" value="2" />
+          <entry key="rst" value="2" />
           <entry key="text" value="3" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="42" />
+          <entry key="CSV" value="71" />
+          <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
-          <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="126" />
+          <entry key="JSON" value="1" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="198" />
+          <entry key="PythonStub" value="2" />
+          <entry key="ReST" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -57,7 +71,7 @@
           <entry key="User_profile" value="47" />
           <entry key="counter" value="22" />
           <entry key="dummy" value="37" />
-          <entry key="py" value="26219" />
+          <entry key="py" value="27550" />
           <entry key="text" value="6" />
         </counts>
       </usages-collector>
@@ -65,7 +79,7 @@
         <counts>
           <entry key="CSV" value="22" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="26266" />
+          <entry key="Python" value="27597" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -82,39 +96,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Visualize_bitcoin/bitcoindarkweb.py">
+        <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_windows.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+            <state relative-caret-position="250">
+              <caret line="319" column="29" lean-forward="true" selection-start-line="319" selection-start-column="29" selection-end-line="319" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/reports.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10130">
+              <caret line="606" column="14" selection-start-line="606" selection-start-column="14" selection-end-line="606" selection-end-column="14" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#1041#1068#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/main.py">
+        <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/encodings/cp1255.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="43" column="85" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#511#854#0" />
-                <marker date="1554305578918" expanded="true" signature="0:2800" ph="..." />
-              </folding>
+            <state relative-caret-position="182">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/user_profile.py">
+        <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/trades.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <marker date="1554211451427" expanded="true" signature="21:175" ph="..." />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="1498" lean-forward="true" selection-start-line="1498" selection-end-line="1498" />
             </state>
           </provider>
         </entry>
@@ -133,6 +148,14 @@
       <find>create</find>
       <find>sleep</find>
       <find>sendMessage</find>
+      <find>HistoricDataAPI</find>
+      <find>TradeHistory</find>
+      <find>HistoricDataCSV</find>
+      <find>print</find>
+      <find>dlopen</find>
+      <find>CompiledFFI</find>
+      <find>weasyprint</find>
+      <find>write_pdf</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,20 +177,30 @@
         <option value="$USER_HOME$/Documents/GitHub/telegram-bot1/get-pip.py" />
         <option value="$USER_HOME$/Documents/GitHub/telepot/examples/callback/lover.py" />
         <option value="$PROJECT_DIR$/Convert_from_bloxtax.py" />
-        <option value="$PROJECT_DIR$/functions.py" />
         <option value="$USER_HOME$/Documents/GitHub/telepot/examples/callback/quiz.py" />
         <option value="$USER_HOME$/Documents/GitHub/telepot/examples/simple/skeleton.py" />
         <option value="$PROJECT_DIR$/../Visualize_bitcoin/Visualize_bitcoin.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$USER_HOME$/Documents/GitHub/telegram-bot1/user_profile.py" />
         <option value="$USER_HOME$/Documents/GitHub/telegram-bot1/main.py" />
         <option value="$PROJECT_DIR$/../Visualize_bitcoin/bitcoindarkweb.py" />
+        <option value="$PROJECT_DIR$/../Visualize_bitcoin/bit_graph.py" />
+        <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/../ccGains-master/ccgains/historic_data.py" />
+        <option value="$PROJECT_DIR$/../ccGains-master/game.py" />
+        <option value="$PROJECT_DIR$/../uk-crypto-tax-master/gains-calculator-version1.py" />
+        <option value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi-1.0.2-py3.6.egg/cairocffi/__init__.py" />
+        <option value="$PROJECT_DIR$/../ccGains-master/examples/example_windows.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/weasyprint/text.py" />
+        <option value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi/__init__.py" />
+        <option value="$PROJECT_DIR$/../ccGains-master/ccgains/trades.py" />
+        <option value="$PROJECT_DIR$/../ccGains-master/ccgains/reports.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="101" />
-    <option name="y" value="53" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="46" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -194,24 +227,16 @@
           <expand>
             <path>
               <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="delay_capital_gains" type="462c0819:PsiDirectoryNode" />
+              <item name="ccGains-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegram-bot1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telepot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telepot" type="462c0819:PsiDirectoryNode" />
+              <item name="ccGains-master" type="462c0819:PsiDirectoryNode" />
               <item name="examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Visualize_bitcoin" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -239,21 +264,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Visualize_bitcoin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ccGains-master" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Documents/GitHub/telegram-bot1" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuval\PycharmProjects\uk-crypto-tax-master" />
+      <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuval\PycharmProjects\uk-crypto-tax-master" />
+      <recent name="C:\Users\yuval\PycharmProjects\Visualize_bitcoin" />
       <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1\Examples\Bitstamp" />
       <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1\Examples\Kraken" />
       <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1\Examples\Poloniex" />
-      <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1\Examples" />
-      <recent name="C:\Users\yuval\PycharmProjects\delay_capital_gains" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,8 +294,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.example_windows">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="telepot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="example_windows" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ccGains-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ccGains-master/examples" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ccGains-master/examples/example_windows.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="delay_capital_gains" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,28 +358,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="telegram-bot1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/telegram-bot1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/telegram-bot1/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="quiz" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="text" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="telepot" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,11 +366,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/telepot/examples/callback" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/weasyprint" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/telepot/examples/callback/quiz.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/weasyprint/text.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,40 +379,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="skeleton" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="telepot" />
+    <configuration name="trades" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ccGains-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/telepot/examples/simple" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ccGains-master/ccgains" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/telepot/examples/simple/skeleton.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="user_profile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="telegram-bot1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Documents/GitHub/telegram-bot1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Documents/GitHub/telegram-bot1/user_profile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ccGains-master/ccgains/trades.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -375,19 +401,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.example_windows" />
+      <item itemvalue="Python.text" />
+      <item itemvalue="Python.__init__" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.quiz" />
-      <item itemvalue="Python.skeleton" />
-      <item itemvalue="Python.user_profile" />
+      <item itemvalue="Python.trades" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.example_windows" />
+        <item itemvalue="Python.trades" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.user_profile" />
-        <item itemvalue="Python.skeleton" />
-        <item itemvalue="Python.quiz" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.text" />
       </list>
     </recent_temporary>
   </component>
@@ -422,15 +448,15 @@
       <window_info id="Favorites" order="2" sideWeight="0.50157726" side_tool="true" weight="0.24920969" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.3336945" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49789253" weight="0.3531961" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.32936078" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.3336945" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5021075" side_tool="true" visible="true" weight="0.3531961" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" weight="0.32936078" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -451,237 +477,258 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Transfer_prices/main.py" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/Transfer_prices/inventory.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Transfer_prices/Functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="55" lean-forward="true" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="55" />
+    <entry file="file://$PROJECT_DIR$/../Visualize_bitcoin/eth_tran.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="58" selection-start-line="56" selection-start-column="58" selection-end-line="56" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/Transfer_prices/main.py">
+    <entry file="file://$PROJECT_DIR$/../Visualize_bitcoin/bit_graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/efgd.py" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/pornhub/photos.py" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/.idea/telegram-bot1.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/Filter.text" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/Filters.text" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/counter" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/BQADBAADPwUAAtLpSVDrWvxHybOJkwI" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/BQADBAADdQQAAo4eUFCuOPtaFtxQ-gI" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/BQADBAADQQUAAtLpSVDieBOKPxBMegI" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/BQADBAADdgQAAo4eUFCauTQ0EiZ9cQI" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/telegram/utils/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/chat/chatbox_nodb.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/chat/guess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/distutils/command/build_py.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="283" column="8" selection-start-line="283" selection-start-column="8" selection-end-line="283" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/inline/inline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="46" column="36" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/Juvinque_Poloniex.csv" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/Juvinque_Bittrex.csv" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/Juvinque/Bittrex.csv" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/test/bookshelf.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/telepot/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/doc/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/get-pip.py" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/callback/datecalca.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/callback/lover.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="82" column="55" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/convert_any_file_to_ILS.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Convert_from_bloxtax.py" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/simple/skeleton.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/callback/quiz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="80" column="55" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Visualize_bitcoin/Visualize_bitcoin.py" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/461799451/.csv" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/callback/lovera.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/callback/vote.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1901" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/telepot/delegate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6171">
-          <caret line="366" column="16" selection-start-line="366" selection-start-column="16" selection-end-line="366" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/telepot/routing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3295">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telepot/examples/callback/datecalc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="164" lean-forward="true" selection-start-line="163" selection-start-column="3" selection-end-line="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/win32com/client/dynamic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="290" column="31" selection-start-line="290" selection-start-column="31" selection-end-line="290" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/zipfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="1094" selection-start-line="1094" selection-end-line="1094" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="49" selection-start-line="42" selection-start-column="21" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/Bittrex/fullOrders - Bittrex example.csv" />
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/user_profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <marker date="1554211451427" expanded="true" signature="21:175" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="43" column="85" selection-start-line="43" selection-start-column="85" selection-end-line="43" selection-end-column="85" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#511#854#0" />
-            <marker date="1554305578918" expanded="true" signature="0:2800" ph="..." />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Visualize_bitcoin/bitcoindarkweb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/Examples/Bitstamp/bitstamp.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="144" column="72" selection-start-line="144" selection-start-column="68" selection-end-line="144" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_csv/bitcoin.de_account_statement_2017_fabricated.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_output/transactions2017.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/historic_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/game.py" />
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/sample-trade-list.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/2016-2017_detailedtaxreport.html" />
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/fee-calculation.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/sample-fee-calculation.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/gains-calculator-version2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/2017-2018_simpletaxreport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/2017-2018_detailedtaxreport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/trade-list.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/gains-calculator-version1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-5041">
+            <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi-1.0.2-py3.6.egg/cairocffi/surfaces.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi-1.0.2-py3.6.egg/cairocffi/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/build/lib/ccgains/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/CairoSVG-2.3.0-py3.6.egg/cairosvg/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3/six/moves/urllib_parse.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/3/six/moves/tkinter_ttk.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/build/lib/ccgains/historic_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-969">
+          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/EGG-INFO/requires.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/EGG-INFO/entry_points.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/EGG-INFO/PKG-INFO">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="15" selection-start-column="50" selection-end-line="26" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/bags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#201#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/weasyprint/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/weasyprint/css/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/weasyprint/css/computed_values.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/weasyprint/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="440" selection-start-line="440" selection-end-line="440" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/transactions2017.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_output/report_2017.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_csv/poloniex_depositHistory_2017_fabricated.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_csv/poloniex_tradeHistory_2017_fabricated.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/docs/source/ccgains.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/docs/source/conf.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/docs/source/index.rst">
+      <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/trades.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="1498" lean-forward="true" selection-start-line="1498" selection-end-line="1498" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/status2017.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/my_file.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/encodings/cp1255.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/reports.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10130">
+          <caret line="606" column="14" selection-start-line="606" selection-start-column="14" selection-end-line="606" selection-end-column="14" />
+          <folding>
+            <element signature="e#1041#1068#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="319" column="29" lean-forward="true" selection-start-line="319" selection-start-column="29" selection-end-line="319" selection-end-column="29" />
         </state>
       </provider>
     </entry>
