@@ -48,6 +48,7 @@ if os.path.exists(where_to_save_the_macro):
     del xl
 
 #remove xlsx file
+
 workbook.close()
 try:
    os.remove(where_to_save)
