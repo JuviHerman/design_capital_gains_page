@@ -12,16 +12,16 @@
     <session id="-2039871038">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="116" />
+          <entry key="project.closed" value="124" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="18" />
-          <entry key="project.open.time.4" value="64" />
-          <entry key="project.open.time.5" value="23" />
+          <entry key="project.open.time.4" value="68" />
+          <entry key="project.open.time.5" value="27" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="121" />
+          <entry key="project.opened" value="129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -45,7 +45,7 @@
           <entry key="json_file" value="3" />
           <entry key="md" value="5" />
           <entry key="pth" value="1" />
-          <entry key="py" value="201" />
+          <entry key="py" value="205" />
           <entry key="pyi" value="2" />
           <entry key="rst" value="2" />
           <entry key="text" value="3" />
@@ -61,7 +61,7 @@
           <entry key="JSON" value="1" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="203" />
+          <entry key="Python" value="207" />
           <entry key="PythonStub" value="2" />
           <entry key="ReST" value="2" />
         </counts>
@@ -71,7 +71,7 @@
           <entry key="User_profile" value="47" />
           <entry key="counter" value="22" />
           <entry key="dummy" value="37" />
-          <entry key="py" value="27561" />
+          <entry key="py" value="27705" />
           <entry key="text" value="6" />
         </counts>
       </usages-collector>
@@ -79,7 +79,7 @@
         <counts>
           <entry key="CSV" value="22" />
           <entry key="PLAIN_TEXT" value="43" />
-          <entry key="Python" value="27608" />
+          <entry key="Python" value="27752" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -96,10 +96,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_windows.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="310">
+              <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="81" column="133" selection-start-line="81" selection-start-column="133" selection-end-line="81" selection-end-column="133" />
             </state>
           </provider>
         </entry>
@@ -164,8 +173,8 @@
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/reports.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/bags.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/examples/example_windows.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -193,6 +202,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="delay_capital_gains" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="delay_capital_gains" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\yuval\Documents\GitHub\telegram-bot1" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="delay_capital_gains" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\yuval\Documents\GitHub\telepot" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,25 +262,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="delay_capital_gains" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\yuval\Documents\GitHub\telegram-bot1" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="C:\Users\yuval\Documents\GitHub\telepot" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,16 +271,16 @@
     <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Documents/GitHub/telegram-bot1" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuval\PycharmProjects\uk-crypto-tax-master" />
+      <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuval\PycharmProjects\delay_capital_gains" />
       <recent name="C:\Users\yuval\PycharmProjects\ccGains-master\data" />
       <recent name="C:\Users\yuval\PycharmProjects\uk-crypto-tax-master" />
       <recent name="C:\Users\yuval\PycharmProjects\Visualize_bitcoin" />
       <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1\Examples\Bitstamp" />
-      <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1\Examples\Kraken" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yuval\PycharmProjects\uk-crypto-tax-master" />
-      <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.example_windows">
+  <component name="RunManager" selected="Python.main">
     <configuration name="bags" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ccGains-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -401,9 +410,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.example_windows" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.functions" />
+        <item itemvalue="Python.example_windows" />
         <item itemvalue="Python.bags" />
         <item itemvalue="Python.trades" />
       </list>
@@ -433,20 +442,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64552844" visible="true" weight="0.24815595" />
       <window_info id="Structure" order="1" sideWeight="0.35447153" side_tool="true" weight="0.24920969" />
       <window_info id="Favorites" order="2" sideWeight="0.50157726" side_tool="true" weight="0.24920969" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4910432" weight="0.35102925" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48682824" weight="0.35102925" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5089568" side_tool="true" visible="true" weight="0.35102925" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51317173" side_tool="true" visible="true" weight="0.35102925" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -679,20 +687,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/transactions2017.csv" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_output/transactions2017.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
@@ -705,7 +699,21 @@
     <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_windows.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="81" column="133" selection-start-line="81" selection-start-column="133" selection-end-line="81" selection-end-column="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
         </state>
       </provider>
     </entry>
