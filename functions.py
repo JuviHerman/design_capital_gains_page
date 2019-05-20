@@ -79,7 +79,7 @@ def Inflation_Adjusted_Cost_Basis(file: pd.DataFrame):
     results2['Gain'] = results['Proceeds'] - results2['Inflation_Adjusted_Cost_Basis']
     cols = ['Symbol'] + ['Volume'] + ['Date Acquired'] + ['Purchasing_rate'] +['Date Sold'] + ['Sale_rate'] + ['Currency'] + ['Proceeds'] + ['Nominal_Cost_Basis'] + ['Periodical_Inflation_In_percent'] + ['Inflation_Adjusted_Cost_Basis'] + ['Gain']
     results2 = results2[cols]
-    results2['Periodical_Inflation_In_percent'] = results2['Periodical_Inflation_In_percent'].astype(str) + '%'
+    results2['Periodical_Inflation_In_percent'] = round(results2['Inflation_Adjusted_Cost_Basis'] - results2['Nominal_Cost_Basis'],0)
 
     #fix date variable to look better
     try:
@@ -89,7 +89,7 @@ def Inflation_Adjusted_Cost_Basis(file: pd.DataFrame):
         pass
 
     #give hebrew titles
-    results2.columns = ["מטבע","כמות","תאריך רכישה","מדד רכישה","תאריך מכירה","מדד מכירה","מטבע הצגה","תמורה","עלות מקורית נומינאלית","שיעור שינוי אינפלציוני בתקופה","עלות מקורית מתואמת","רווח/הפסד"]
+    results2.columns = ["מטבע","כמות","תאריך רכישה","מדד רכישה (לפי בסיס 51)","תאריך מכירה","מדד מכירה (לפי בסיס 51)","מטבע הצגה","תמורה","עלות מקורית נומינאלית","סכום אינפלציוני","עלות מקורית מתואמת","רווח/הפסד"]
 
     return results2
 
@@ -97,8 +97,8 @@ def prepare_capital_gains_file_for_print(df1):
 
     ## in case "Date Sold" and "Date Acquired" is with chars such as "-" between parameters, these two lines of code will fix
     try:
-        df1['Date Sold'] = df1['Date Sold'].apply(dateutil.parser.parse, dayfirst=True)
-        df1['Date Acquired'] = df1['Date Acquired'].apply(dateutil.parser.parse, dayfirst=True)
+        df1['Date Sold'] = df1['Date Sold'].apply(dateutil.parser.parse, dayfirst=False)
+        df1['Date Acquired'] = df1['Date Acquired'].apply(dateutil.parser.parse, dayfirst=False)
     except:
         pass
 
