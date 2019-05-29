@@ -144,7 +144,7 @@ def set_bloxtaxfile(path):
     print(path)
     file = pd.read_excel(path, error_bad_lines=False ,parse_dates = True,object  = 'תאריך קניה' )
     print('sssds')
-    file = file.rename(columns={'כמות ביצוע':'Volume','תאריך מכירה':'Date Sold','תאריך קניה':'Date Acquired','נכס בסיס':'Symbol','תמורה':'Proceeds','עלות קניה שקלים (שער יציג יום קניה)':'Cost Basis','רווח\הפסד שקלים (נומינלי)':'gain'})
+    file = file.rename(columns={'כמות ביצוע':'Volume','תאריך מכירה':'Date Sold','תאריך קניה':'Date Acquired','נכס בסיס':'Symbol','תמורה':'Proceeds','עלות קניה שקלים':'Cost Basis','רווח\הפסד שקלים (נומינלי)':'gain'})
     file = file[['Volume','Symbol','Date Acquired','Date Sold','Proceeds','Cost Basis','gain']]
     #file.loc['NaN' in file['Date Acquired'], file['Date Acquired']] = file['Date Sold']
     file['Proceeds'] = file['gain'] + file['Cost Basis']
