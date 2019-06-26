@@ -12,16 +12,16 @@
     <session id="-2039871038">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="131" />
+          <entry key="project.closed" value="149" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.3" value="18" />
-          <entry key="project.open.time.4" value="72" />
-          <entry key="project.open.time.5" value="30" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="136" />
+          <entry key="project.open.time.4" value="80" />
+          <entry key="project.open.time.5" value="41" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.opened" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -33,6 +33,7 @@
           <entry key="Makefile" value="1" />
           <entry key="PKG-INFO" value="1" />
           <entry key="User_profile" value="2" />
+          <entry key="bit2c adjustment" value="2" />
           <entry key="counter" value="1" />
           <entry key="csv" value="78" />
           <entry key="gexf" value="1" />
@@ -45,7 +46,7 @@
           <entry key="json_file" value="3" />
           <entry key="md" value="5" />
           <entry key="pth" value="1" />
-          <entry key="py" value="211" />
+          <entry key="py" value="230" />
           <entry key="pyi" value="2" />
           <entry key="rst" value="2" />
           <entry key="text" value="3" />
@@ -61,7 +62,7 @@
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="213" />
+          <entry key="Python" value="234" />
           <entry key="PythonStub" value="2" />
           <entry key="ReST" value="2" />
         </counts>
@@ -69,9 +70,10 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="User_profile" value="47" />
+          <entry key="bit2c adjustment" value="1282" />
           <entry key="counter" value="22" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="27983" />
+          <entry key="py" value="32840" />
           <entry key="text" value="6" />
         </counts>
       </usages-collector>
@@ -79,7 +81,7 @@
         <counts>
           <entry key="CSV" value="22" />
           <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Python" value="28030" />
+          <entry key="Python" value="34169" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -98,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/bags.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
+            <state relative-caret-position="2941">
               <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
               <folding>
                 <element signature="e#1041#1068#0" expanded="true" />
@@ -108,30 +110,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_windows.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/functions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="157" column="15" lean-forward="true" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="15" />
+            <state relative-caret-position="1836">
+              <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/play.py">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="289">
+              <caret line="39" column="17" lean-forward="true" selection-start-line="38" selection-end-line="39" />
               <folding>
-                <element signature="e#0#27#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bit2c adjustment">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +165,7 @@
       <find>weasyprint</find>
       <find>write_pdf</find>
       <find>_json_encode_default</find>
+      <find>TradeH</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,14 +200,16 @@
         <option value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi-1.0.2-py3.6.egg/cairocffi/__init__.py" />
         <option value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/weasyprint/text.py" />
         <option value="$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi/__init__.py" />
-        <option value="$PROJECT_DIR$/../ccGains-master/ccgains/trades.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/reports.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/examples/example_windows.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/pkay.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/bags.py" />
+        <option value="$PROJECT_DIR$/../ccGains-master/ccgains/trades.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/play.py" />
         <option value="$PROJECT_DIR$/functions.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/tak.py" />
+        <option value="$PROJECT_DIR$/bit2c adjustment" />
       </list>
     </option>
   </component>
@@ -303,16 +311,16 @@
     <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Documents/GitHub/telegram-bot1" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yuval\PycharmProjects\uk-crypto-tax-master" />
-      <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yuval\PycharmProjects\delay_capital_gains" />
       <recent name="C:\Users\yuval\PycharmProjects\ccGains-master\data" />
       <recent name="C:\Users\yuval\PycharmProjects\uk-crypto-tax-master" />
       <recent name="C:\Users\yuval\PycharmProjects\Visualize_bitcoin" />
       <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1\Examples\Bitstamp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuval\PycharmProjects\uk-crypto-tax-master" />
+      <recent name="C:\Users\yuval\Documents\GitHub\telegram-bot1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -327,41 +335,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="bags" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ccGains-master" />
+  <component name="RunManager" selected="Python.bit2c adjustment">
+    <configuration name="bit2c adjustment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="delay_capital_gains" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ccGains-master/ccgains" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ccGains-master/ccgains/bags.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="example_windows" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ccGains-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../ccGains-master/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../ccGains-master/examples/example_windows.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bit2c adjustment" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -433,20 +420,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tak" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="delay_capital_gains" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tak.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.example_windows" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.bags" />
       <item itemvalue="Python.functions" />
       <item itemvalue="Python.play" />
+      <item itemvalue="Python.tak" />
+      <item itemvalue="Python.bit2c adjustment" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bit2c adjustment" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.functions" />
+        <item itemvalue="Python.tak" />
         <item itemvalue="Python.play" />
-        <item itemvalue="Python.bags" />
-        <item itemvalue="Python.example_windows" />
+        <item itemvalue="Python.functions" />
       </list>
     </recent_temporary>
   </component>
@@ -476,19 +484,19 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64552844" visible="true" weight="0.24815595" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64552844" visible="true" weight="0.17755532" />
       <window_info id="Structure" order="1" sideWeight="0.35447153" side_tool="true" weight="0.24920969" />
       <window_info id="Favorites" order="2" sideWeight="0.50157726" side_tool="true" weight="0.24920969" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4841939" weight="0.35102925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47260273" weight="0.35102925" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49841937" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.51580614" side_tool="true" visible="true" weight="0.35102925" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49947312" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5273973" side_tool="true" visible="true" weight="0.35102925" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49894625" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -510,24 +518,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/GitHub/telegram-bot1/Examples/Bitstamp/bitstamp.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_csv/bitcoin.de_account_statement_2017_fabricated.csv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/historic_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ccGains-master/game.py" />
     <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/sample-trade-list.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
@@ -611,13 +601,6 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/WeasyPrint-47-py3.6.egg/EGG-INFO/PKG-INFO">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/cairocffi/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -714,23 +697,48 @@
     <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/transactions2017.csv">
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_windows.py">
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="446">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/binance_util.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/trades.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="1252" selection-start-line="1252" selection-end-line="1252" />
+        <state relative-caret-position="10642">
+          <caret line="631" column="77" selection-start-line="631" selection-start-column="77" selection-end-line="631" selection-end-column="77" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/play.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tak.py" />
     <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/bags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
+        <state relative-caret-position="2941">
           <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
           <folding>
             <element signature="e#1041#1068#0" expanded="true" />
@@ -738,27 +746,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/play.py">
+    <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_windows.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1836">
+          <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="289">
+          <caret line="39" column="17" lean-forward="true" selection-start-line="38" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
+    <entry file="file://$PROJECT_DIR$/bit2c adjustment">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="157" column="15" lean-forward="true" selection-start-line="157" selection-start-column="15" selection-end-line="157" selection-end-column="15" />
+        <state relative-caret-position="238">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
