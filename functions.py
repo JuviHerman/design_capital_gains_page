@@ -2,7 +2,10 @@ import pandas as pd
 import dateutil
 from tkinter.filedialog import askopenfilename
 import tkinter as tk
+import datetime
+import numpy as np
 import os
+
 
 
 def divide_to_different_coins(pd1):
@@ -77,7 +80,7 @@ def Inflation_Adjusted_Cost_Basis(file: pd.DataFrame):
 
     #recalculate correct gains/losses
     results2['Gain'] = results['Proceeds'] - results2['Inflation_Adjusted_Cost_Basis']
-    cols = ['Symbol'] + ['Volume'] + ['Date Acquired'] + ['Purchasing_rate'] +['Date Sold'] + ['Sale_rate'] + ['Currency'] + ['Proceeds'] + ['Nominal_Cost_Basis'] + ['Periodical_Inflation_In_percent'] + ['Inflation_Adjusted_Cost_Basis'] + ['Gain']
+    cols = ['Symbol'] + ['Volume'] + ['Date Acquired'] + ['Date Sold'] + ['Purchasing_rate'] + ['Sale_rate'] +['Currency'] + ['Proceeds'] + ['Nominal_Cost_Basis'] + ['Periodical_Inflation_In_percent'] + ['Inflation_Adjusted_Cost_Basis'] + ['Gain']
     results2 = results2[cols]
     results2['Periodical_Inflation_In_percent'] = round(results2['Inflation_Adjusted_Cost_Basis'] - results2['Nominal_Cost_Basis'],0)
 
@@ -89,7 +92,7 @@ def Inflation_Adjusted_Cost_Basis(file: pd.DataFrame):
         pass
 
     #give hebrew titles
-    results2.columns = ["מטבע","כמות","תאריך רכישה","מדד רכישה (לפי בסיס 51)","תאריך מכירה","מדד מכירה (לפי בסיס 51)","מטבע הצגה","תמורה","עלות מקורית נומינאלית","סכום אינפלציוני","עלות מקורית מתואמת","רווח/הפסד"]
+    results2.columns = ["מטבע","כמות","תאריך רכישה","תאריך מכירה","מדד רכישה (לפי בסיס 51)","מדד מכירה (לפי בסיס 51)","מטבע הצגה","תמורה","עלות מקורית נומינאלית","סכום אינפלציוני","עלות מקורית מתואמת","רווח/הפסד"]
 
     return results2
 
@@ -107,30 +110,12 @@ def prepare_capital_gains_file_for_print(df1):
         df1.drop(['Unmatched'],axis =1 ,inplace = True)
 
     #groupby rows by condition
-    x = df1.groupby(['Date Sold','Symbol','Date Acquired','Currency'], as_index=False).sum()
-    cols = ['Symbol'] + ['Volume'] + ['Date Acquired'] + [col for col in x if col != 'Volume' and col != 'Symbol' and col != 'Date Acquired']
+    x = df1.groupby(['Date Sold','Date Acquired','Symbol','Currency'], as_index=False).sum()
+    cols = ['Symbol','Volume','Date Acquired','Date Sold','Currency','Proceeds','Cost Basis','Gain']
     x = x[cols]
-    x.sort_values(by='Date Sold')
-    x.columns = ["מטבע","כמות","תאריך רכישה","תאריך מכירה","מטבע הצגה","תמורה","עלות מקורית","רווח/הפסד"]
+    x.sort_values(by=['Date Sold'],ascending=False)
+    x.columns =["מטבע","כמות","תאריך רכישה","תאריך מכירה","מטבע הצגה","תמורה","עלות מקורית","רווח/הפסד"]
 
-    return x
-
-def prepare_capital_gains_file_for_work(df1):
-    try:
-        df1['Date Sold'] = df1['Date Sold'].apply(dateutil.parser.parse, dayfirst=True)
-        df1['Date Acquired'] = df1['Date Acquired'].apply(dateutil.parser.parse, dayfirst=True)
-    except:
-        pass
-
-        # delete unmatched coloumn if exists
-    if 'Unmatched' in list(df1.head(0)):
-        df1.drop(['Unmatched'], axis=1, inplace=True)
-
-
-    x = df1.groupby(['Date Sold','Symbol','Date Acquired','Currency'], as_index=False).sum()
-    cols = ['Symbol'] + ['Volume'] + ['Date Acquired'] + [col for col in x if col != 'Volume' and col != 'Symbol' and col != 'Date Acquired']
-    x = x[cols]
-    x.sort_values(by='Date Sold')
     return x
 
 def OpenFile():
@@ -141,18 +126,23 @@ def OpenFile():
     return name
 
 def set_bloxtaxfile(path):
-    print(path)
-    file = pd.read_excel(path, error_bad_lines=False ,parse_dates = True,object  = 'תאריך קניה' )
-    print('sssds')
-    file = file.rename(columns={'כמות ביצוע':'Volume','תאריך מכירה':'Date Sold','תאריך קניה':'Date Acquired','נכס בסיס':'Symbol','תמורה':'Proceeds','עלות קניה שקלים':'Cost Basis','רווח\הפסד שקלים (נומינלי)':'gain'})
-    file = file[['Volume','Symbol','Date Acquired','Date Sold','Proceeds','Cost Basis','gain']]
-    #file.loc['NaN' in file['Date Acquired'], file['Date Acquired']] = file['Date Sold']
-    file['Proceeds'] = file['gain'] + file['Cost Basis']
-    file['Date Acquired'] = pd.to_datetime(file['Date Acquired']).dt.date
-    file['Date Sold'] = pd.to_datetime(file['Date Sold']).dt.date
+    #reading from file and translating columns names to the project language
+    file = pd.read_excel(path, error_bad_lines=False ,parse_dates = False ,object  = 'תאריך קניה')
+    file = file.rename(columns={'כמות ביצוע':'Volume','תאריך מכירה':'Date_Sold','תאריך קניה':'Date_Acquired','נכס בסיס':'Symbol','תמורה':'Proceeds','עלות קניה שקלים (שער יציג יום קניה)':'Cost_Basis','רווח\הפסד שקלים (נומינלי)':'Gain'})
+    file = file[['Symbol','Volume','Date_Acquired','Date_Sold','Proceeds','Cost_Basis','Gain']]
+
+    #handling missings values in date acquired
+    file.loc[file.Date_Acquired == '-' ,'Date_Acquired' ] = file.Date_Sold.astype(str)
+    file.loc[file.Date_Acquired != '-','Date_Acquired'] = file.Date_Acquired.astype(str)
+    file = file.rename(columns={'Date_Acquired': 'Date Acquired', 'Date_Sold': 'Date Sold', 'Cost_Basis': 'Cost Basis'})
+
+    file['Proceeds'] = file['Gain'] + file['Cost Basis']
     file['Currency'] = 'ILS'
     file['Unmatched'] = ''
 
+    #parse dates from string to date objects:
+    file['Date Acquired'] = pd.to_datetime(file['Date Acquired']).dt.date
+    file['Date Sold'] = pd.to_datetime(file['Date Sold']).dt.date
 
-    print(file)
+
     return file
