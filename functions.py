@@ -128,12 +128,15 @@ def OpenFile():
 def set_bloxtaxfile(path):
     #reading from file and translating columns names to the project language
     file = pd.read_excel(path, error_bad_lines=False ,parse_dates = False ,object  = 'תאריך קניה')
-    file = file.rename(columns={'כמות ביצוע':'Volume','תאריך מכירה':'Date_Sold','תאריך קניה':'Date_Acquired','נכס בסיס':'Symbol','תמורה':'Proceeds','עלות קניה שקלים (שער יציג יום קניה)':'Cost_Basis','רווח\הפסד שקלים (נומינלי)':'Gain'})
+    file = file.rename(columns={'כמות ביצוע':'Volume','תאריך מכירה':'Date_Sold','תאריך קניה':'Date_Acquired','נכס בסיס':'Symbol','תמורה':'Proceeds','עלות קניה שקלים':'Cost_Basis','רווח\הפסד שקלים (נומינלי)':'Gain'})
     file = file[['Symbol','Volume','Date_Acquired','Date_Sold','Proceeds','Cost_Basis','Gain']]
 
     #handling missings values in date acquired
-    file.loc[file.Date_Acquired == '-' ,'Date_Acquired' ] = file.Date_Sold.astype(str)
-    file.loc[file.Date_Acquired != '-','Date_Acquired'] = file.Date_Acquired.astype(str)
+    try:
+        file.loc[file.Date_Acquired == '-' ,'Date_Acquired' ] = file.Date_Sold.astype(str)
+        file.loc[file.Date_Acquired != '-','Date_Acquired'] = file.Date_Acquired.astype(str)
+    except:
+        pass
     file = file.rename(columns={'Date_Acquired': 'Date Acquired', 'Date_Sold': 'Date Sold', 'Cost_Basis': 'Cost Basis'})
 
     file['Proceeds'] = file['Gain'] + file['Cost Basis']
