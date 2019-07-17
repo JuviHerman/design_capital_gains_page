@@ -1,55 +1,106 @@
 import pandas as pd
+pd.options.mode.chained_assignment = None
 from functions import OpenFile
 from xlwt import Workbook
 
-#choose file
-path = OpenFile()
-file = pd.read_excel(path)
+def openfile():
+    #choose file
+    path = OpenFile()
+    #terminate window midway:
+    if path is '':
+        print('Terminated')
+        exit()
+    file = pd.read_excel(path)
+    return(path,file)
 
-#figure out how many fees are in file who weren't added to assets cost
-condition_fees =file['accountAction'] == "FeeWithdrawal"
-fees_file = file[condition_fees]
-fees_amount = fees_file['feeAmount'].sum()
-del condition_fees
-del fees_file
+def transfer_transaction(file):
+    condition_deposit = file['Action'] == 'Deposit'
+    condition_withdrawal = file['Action'] == 'Withdrawal'
+    transfers = file[condition_deposit | condition_withdrawal]
+    if transfers.empty:
+        print('No transfers are on this file')
+        return None
+    #transfers['Total'] = transfers.apply(lambda row: (row['price'] * row['Volume']), axis=1)
+    return transfers
 
-#filter the file in order to retain the actual trades that had occured(buy and sell)
-condition_buy = file['accountAction'] == "Buy"
-condition_sell = file['accountAction'] == "Sell"
-file = file[condition_buy | condition_sell]
-if file.empty:
-    print('No sales or purchases on this years file')
-    exit()
+def fees(file):
+    # figure out how many fees are in file who weren't added to assets cost
+    withdrawal_fees = file['Action'] == "FeeWithdrawal"
+    other_fees = file['Action'] == 'Fee'
+    fees_file = file[withdrawal_fees | other_fees]
+    fees_amount = fees_file['Fee'].sum()
+    if fees_amount > 0:
+        return fees_amount
+    else:
+        print('No Fee transaction on this file')
+        return None
 
-#adjust column names to program accepted column names
-file = file.rename(columns ={'created':'Date', 'accountAction':'Action','firstCoin':'Symbol','secondCoin':'Currency','firstAmount':'Volume','feeAmount':'Fee','fee':'FeeCurrency'})
+def trade_transaction(file):
+    #filter the file in order to retain the actual trades that had occured(buy and sell)
+    condition_buy = file['Action'] == "Buy"
+    condition_sell = file['Action'] == "Sell"
+    condition_debit = file['Action'] == 'Debit'
+    condition_credit = file['Action'] == 'Credit'
 
-#delete unnecessary columns
-file.drop(columns = ['id','secondAmount','ref'],axis = 1, inplace = True)
+    file = file[condition_buy | condition_sell]
+    if file.empty:
+        print('No sales or purchases on this file')
+        return None
+    return file
 
-#correct values in table
-file.loc[file['Currency'] == 'NIS', 'Currency'] = 'ILS'
+def save_file(data,path,added_name):
+    #if the data is a transactions dataframe - save it as *.xlsx
+    if added_name!='Unaccounted_for_fees.xls':
+        where_to_save = path[:-4] + " " + added_name
+        writer = pd.ExcelWriter(where_to_save, engine='xlsxwriter')
+        data.to_excel(writer, index=False, encoding='UTF-8')
+        writer.save()
+    #if the data is a 'fees' numeric value - save it as *.xls
+    else:
+        wb = Workbook()
+        sheet1 = wb.add_sheet('Sheet 1')
+        sheet1.write(0, 0, data)
+        where_to_save = path[:-4] + " " + added_name
+        wb.save(where_to_save)
 
-#add necessary columns and values
-file['FeeCurrency'] = 'ILS'
-file['Source'] = 'Bit2C'
 
-#save to excel file
-where_to_save = path[:-4] + " Bitcoin_tax_ready.xlsx"
-writer = pd.ExcelWriter(where_to_save, engine='xlsxwriter')
-file.to_excel(writer, index=False, encoding='UTF-8')
-writer.save()
+if __name__ == '__main__':
+    path,original = openfile()
+    # delete unnecessary columns and add a few corrections
+    original = original.rename(
+        columns={'created': 'Date', 'accountAction': 'Action', 'firstCoin': 'Symbol', 'secondCoin': 'Currency',
+                 'firstAmount': 'Volume', 'feeAmount': 'Fee', 'fee': 'FeeCurrency'})
+    original.loc[original['Volume']< 0,'Volume'] = original['Volume'] * -1
+    original['Total'] = original.apply(lambda row: (row['price'] * row['Volume']), axis=1)
+    original.drop(columns=['id', 'secondAmount', 'ref'], axis=1, inplace=True)
+    original.loc[original['Currency'] == 'NIS', 'Currency'] = 'ILS'
+    original.loc[original['Symbol'] == 'NIS', 'Symbol'] = 'ILS'
+    original['FeeCurrency'] = 'ILS'
+    original['Source'] = 'Bit2C'
 
-#if there are fees not added to asset cost, then write it down to a file for further use in tax report.
-if fees_amount > 0:
-    wb = Workbook()
-    sheet1 = wb.add_sheet('Sheet 1')
-    sheet1.write(0, 0, fees_amount)
-    fee_path = path[:-4] + " Unaccounted_for_fees.xls"
-    wb.save(fee_path)
-else:
-    pass
 
-#results
-print(file)
+    #1. save trades to excel file
+    trades = trade_transaction(original)
+    if trades is not None:
+        save_file(trades,path," Bitcoin_tax_ready.xlsx")
+
+    #2. save all transaction (fiat and crypto)
+    transfers = transfer_transaction(original)
+    if transfers is not None:
+        save_file(transfers, path, 'All transfers.xlsx')
+
+    #3. save crypto transaction to excel file
+    condition_noFiat = transfers['Symbol'] != 'ILS'
+    crypto_transfers = transfers[condition_noFiat]
+    if crypto_transfers is not None:
+        save_file(crypto_transfers, path, 'Crypto transfers.xlsx')
+
+    #4. save fees collected to excel file
+    fees_amount = fees(original)
+    if fees_amount is not None:
+        save_file(fees_amount,path,'Unaccounted_for_fees.xls')
+
+
+
+
 
