@@ -54,22 +54,32 @@ def Convert_to_ILS_Figures(file : pd.DataFrame):
 def Inflation_Adjusted_Cost_Basis(file: pd.DataFrame):
     #Pandas object for Israeli rates thougout the years - until 11/2018
     Israeli_Rates = pd.read_excel('C:\\Users\\yuval\\PycharmProjects\\delay_capital_gains\\‏‏rates.xlsx',index_col=None)
+    Last_known_Rate = Israeli_Rates['Rate'].tail(1).item()
+    print(Last_known_Rate)
 
     test_file = file
     test_file.columns = ["Symbol","Volume","Date Acquired","Date Sold","Currency","Proceeds","Nominal_Cost_Basis","Gain"]
 
     #add Purchased YearMonth value to the list
     test_file['YearMonth'] = test_file['Date Acquired'].map(lambda x: 100*x.year + x.month)
-
     results=test_file.merge(Israeli_Rates,on='YearMonth',how = 'left')
+    results['Rate'].fillna(0,inplace = True)
+    results.loc[results['Rate'] == 0 , 'Rate'] = Last_known_Rate
+
     results.rename(columns = {'Rate':'Purchasing_rate'}, inplace = True)
+
     del results['YearMonth']
 
     #add Sale YearMonth value to the list
     results['YearMonth'] = results['Date Sold'].map(lambda x: 100*x.year + x.month)
     results2=results.merge(Israeli_Rates,on='YearMonth',how = 'left')
+    results2['Rate'].fillna(0, inplace=True)
+    results2.loc[results2['Rate'] == 0, 'Rate'] = Last_known_Rate
+
     results2.rename(columns = {'Rate':'Sale_rate'}, inplace = True)
+
     del results2['YearMonth']
+
 
     #add inflation percentage
     results2['Periodical_Inflation_In_percent'] = round(((results2['Sale_rate']/results2['Purchasing_rate'])-1)*100,3)
@@ -77,12 +87,13 @@ def Inflation_Adjusted_Cost_Basis(file: pd.DataFrame):
     #add inflation adjustment
     results2.loc[results2.Periodical_Inflation_In_percent > 0, 'Inflation_Adjusted_Cost_Basis'] =  results2.Nominal_Cost_Basis * (1+(results2.Periodical_Inflation_In_percent/100))
     results2.loc[results2.Periodical_Inflation_In_percent <= 0, 'Inflation_Adjusted_Cost_Basis'] =  results2.Nominal_Cost_Basis
+    results2['Periodical_Inflation'] = round(results2['Inflation_Adjusted_Cost_Basis'] - results2['Nominal_Cost_Basis'],3)
 
     #recalculate correct gains/losses
     results2['Gain'] = results['Proceeds'] - results2['Inflation_Adjusted_Cost_Basis']
-    cols = ['Symbol'] + ['Volume'] + ['Date Acquired'] + ['Date Sold'] + ['Purchasing_rate'] + ['Sale_rate'] +['Currency'] + ['Proceeds'] + ['Nominal_Cost_Basis'] + ['Periodical_Inflation_In_percent'] + ['Inflation_Adjusted_Cost_Basis'] + ['Gain']
+    cols = ['Symbol'] + ['Volume'] + ['Date Acquired'] + ['Date Sold'] + ['Purchasing_rate'] + ['Sale_rate'] +['Currency'] + ['Proceeds'] + ['Nominal_Cost_Basis'] + ['Periodical_Inflation'] + ['Inflation_Adjusted_Cost_Basis'] + ['Gain']
     results2 = results2[cols]
-    results2['Periodical_Inflation_In_percent'] = round(results2['Inflation_Adjusted_Cost_Basis'] - results2['Nominal_Cost_Basis'],0)
+
 
     #fix date variable to look better
     try:
@@ -122,7 +133,7 @@ def OpenFile():
     desktop_location = os.path.expanduser("~\Desktop")
     root = tk.Tk()
     root.withdraw()
-    name = askopenfilename(initialdir=desktop_location,filetypes =(("Csv File", "*.csv"),("All Files","*.*")),title = "Choose a file")
+    name = askopenfilename(initialdir=desktop_location,filetypes =(("Trade Files", "*.csv *.xls *.xlsx"),("All Files","*.*")),title = "Choose a file")
     return name
 
 def set_bloxtaxfile(path):
