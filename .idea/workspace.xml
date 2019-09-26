@@ -12,16 +12,16 @@
     <session id="-2039871038">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="149" />
-          <entry key="project.open.time.0" value="6" />
+          <entry key="project.closed" value="156" />
+          <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.3" value="18" />
-          <entry key="project.open.time.4" value="80" />
-          <entry key="project.open.time.5" value="41" />
+          <entry key="project.open.time.3" value="19" />
+          <entry key="project.open.time.4" value="82" />
+          <entry key="project.open.time.5" value="42" />
           <entry key="project.open.time.6" value="6" />
-          <entry key="project.opened" value="156" />
+          <entry key="project.opened" value="163" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,11 +44,12 @@
           <entry key="jpg" value="1" />
           <entry key="json" value="2" />
           <entry key="json_file" value="3" />
-          <entry key="md" value="5" />
+          <entry key="md" value="7" />
           <entry key="pth" value="1" />
-          <entry key="py" value="230" />
+          <entry key="py" value="240" />
           <entry key="pyi" value="2" />
           <entry key="rst" value="2" />
+          <entry key="spec" value="2" />
           <entry key="text" value="3" />
           <entry key="txt" value="2" />
         </counts>
@@ -60,9 +61,9 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="2" />
-          <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="234" />
+          <entry key="Markdown" value="7" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="244" />
           <entry key="PythonStub" value="2" />
           <entry key="ReST" value="2" />
         </counts>
@@ -73,15 +74,16 @@
           <entry key="bit2c adjustment" value="1282" />
           <entry key="counter" value="22" />
           <entry key="dummy" value="45" />
-          <entry key="py" value="32840" />
+          <entry key="py" value="32846" />
+          <entry key="spec" value="15" />
           <entry key="text" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSV" value="22" />
-          <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Python" value="34169" />
+          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="Python" value="34175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -97,47 +99,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/bags.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2941">
-              <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
-              <folding>
-                <element signature="e#1041#1068#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../ccGains-master/examples/example_windows.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="108" column="26" selection-start-line="108" selection-start-column="26" selection-end-line="108" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="39" column="17" lean-forward="true" selection-start-line="38" selection-end-line="39" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bit2c adjustment">
+        <entry file="file://$PROJECT_DIR$/librataxcpa.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="629">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -206,16 +172,18 @@
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/bags.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/trades.py" />
         <option value="$PROJECT_DIR$/../ccGains-master/ccgains/play.py" />
-        <option value="$PROJECT_DIR$/functions.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/tak.py" />
         <option value="$PROJECT_DIR$/bit2c adjustment" />
+        <option value="$PROJECT_DIR$/bit2c_adjustment.spec" />
+        <option value="$PROJECT_DIR$/bit2c_adjustment.py" />
+        <option value="$PROJECT_DIR$/functions.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="46" />
+    <option name="x" value="250" />
+    <option name="y" value="86" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -237,52 +205,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="delay_capital_gains" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccGains-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccGains-master" type="462c0819:PsiDirectoryNode" />
-              <item name="ccgains" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccGains-master" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccGains-master" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccGains-master" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="example_csv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ccGains-master" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="example_output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -302,10 +224,25 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="delay_capital_gains" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="delay_capital_gains" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ccGains-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Capital Gains Page Designer" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="two.files.diff.last.used.folder" value="$USER_HOME$/Documents/GitHub/telegram-bot1" />
@@ -335,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bit2c adjustment">
+  <component name="RunManager" selected="Python.main">
     <configuration name="bit2c adjustment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="delay_capital_gains" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -357,7 +294,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bit2c_adjustment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="delay_capital_gains" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,7 +306,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bit2c_adjustment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -443,18 +380,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.functions" />
       <item itemvalue="Python.play" />
       <item itemvalue="Python.tak" />
       <item itemvalue="Python.bit2c adjustment" />
+      <item itemvalue="Python.bit2c_adjustment" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bit2c adjustment" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.bit2c_adjustment" />
+        <item itemvalue="Python.bit2c adjustment" />
         <item itemvalue="Python.tak" />
         <item itemvalue="Python.play" />
-        <item itemvalue="Python.functions" />
       </list>
     </recent_temporary>
   </component>
@@ -482,20 +419,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64552844" visible="true" weight="0.17755532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64552844" visible="true" weight="0.17755532" />
       <window_info id="Structure" order="1" sideWeight="0.35447153" side_tool="true" weight="0.24920969" />
       <window_info id="Favorites" order="2" sideWeight="0.50157726" side_tool="true" weight="0.24920969" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.47260273" weight="0.35102925" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.471549" weight="0.35102925" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49841937" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5273973" side_tool="true" visible="true" weight="0.35102925" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.528451" side_tool="true" visible="true" weight="0.35102925" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49894625" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -518,23 +454,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/sample-trade-list.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/2016-2017_detailedtaxreport.html" />
-    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/fee-calculation.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/sample-fee-calculation.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/gains-calculator-version2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../uk-crypto-tax-master/2017-2018_simpletaxreport.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -728,21 +647,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tak.py" />
+    <entry file="file://$PROJECT_DIR$/bit2c adjustment" />
     <entry file="file://$PROJECT_DIR$/../ccGains-master/ccgains/bags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
+        <state relative-caret-position="514">
           <caret line="182" column="38" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
-          <folding>
-            <element signature="e#1041#1068#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,23 +663,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bit2c_adjustment.spec" />
+    <entry file="file://$PROJECT_DIR$/bit2c_adjustment.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/convert_any_file_to_ILS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="38" selection-end-line="39" />
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bit2c adjustment">
+    <entry file="file://$PROJECT_DIR$/functions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/librataxcpa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>
