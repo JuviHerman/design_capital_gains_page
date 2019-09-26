@@ -2,8 +2,6 @@ import pandas as pd
 import dateutil
 from tkinter.filedialog import askopenfilename
 import tkinter as tk
-import datetime
-import numpy as np
 import os
 
 
